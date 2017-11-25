@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" type="text/css" />
+    <!--<link rel="stylesheet" href="styleforalbumapp.css" type="text/css" />-->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <title>Photo Album</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Photo Album</h1>
+
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="input-group">
+                    <input id="PhotoURL" type="text" class="form-control" placeholder="Photo URL">
+                    <span class="input-group-btn">
+                      <button id="addPhotoButton" class="btn btn-secondary" type="button">Add</button>
+                         </span>
+
+                </div>
+            </div>
+        </div>
+
+        <!--<div id = photoContainer>-->
+        <div id="myFavoriteBox">
+            <p>My Favorite </p>
+        </div>
+
+        <div id="manyPictures" class="row">
+            <span>
+                <div class="pictureContainer">
+            <!--<div id="item3" class="card" style="width: 20rem;">-->
+                <img id="myImage" class="imgTag img-thumbnail" src= "http://t3.rbxcdn.com/a4fb4d86d024a2bd415876c23653f111" alt="Card image cap">
+                <div class="card-body">
+                    <button href="#" class="remove btn-danger">Remove</button>
+                    <button href="#" class = "like btn-danger">♡</button>
+                </div>
+              </div>
+            </span>
+
+            <span>
+                <div class="pictureContainer">
+            <!--<div id="item3" class="card" style="width: 20rem;">-->
+                <img id="myImage" class="imgTag img-thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNZBc1re5rbv_ge3U_hrUKvwWi4QZ8xVE9n1X6UFVDP3IXOxBGoA" alt="Card image cap">
+                <div class="card-body">
+                    <button href="#" class="remove btn-danger">Remove</button>
+                    <button href="#" class = "like btn-danger">♡</button>
+                    </div>
+                </div>
+            </span>
+
+
+            <span><div class="pictureContainer">
+            <!--<div id="item3" class="card" style="width: 20rem;">-->
+                <img id="myImage" class="imgTag img-thumbnail" src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQdP9M03SsCchOm4elhaTxcgHeFu67yFj4W3f2_t65cpdYsP3" alt="Card image cap">
+                <div class="card-body">
+                    <button href="#" class="remove btn-danger">Remove</button>
+                    <button href="#" class = "like btn-danger">♡</button>
+                </div>
+            </div></span>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

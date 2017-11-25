@@ -1,0 +1,76 @@
+h1{
+text-align: center;
+}
+
+
+.container{
+    width: 100%;
+}
+
+#photoContainer{
+    width:100%;
+}
+
+.input-group{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.pictureContainer{
+    margin: 8px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    position: relative;
+    float:left;
+
+}
+
+.imgTag {
+    position:relative;
+    width: 200px;
+    height:200px;
+}
+.card-body{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#manyPictures{
+    position: relative;
+    width: 100%;
+    
+}
+
+
+
+.remove btn-danger, .like btn-danger{
+    position: relative;
+    width: 100px;
+}
+
+
+
+.imgTag{
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    width: 100%;
+    
+}
+
+#myFavoriteBox{
+    position: relative;
+    width: 100%;
+    height: 250px;
+    border:1px solid orange;
+    padding: 15px;
+}
+
+.row{
+    width: 100%;
+    position:relative;
+}
